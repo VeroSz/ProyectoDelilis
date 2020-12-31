@@ -1,0 +1,170 @@
+//Variables
+$color: #f8f5ed;
+$colorFont:#D9D2C6;
+//Formato de Header
+//Color fondo de todas las secciones
+.FondoPantalla {
+    background-color: $color;
+    font-family: 'Roboto', cursive;
+    //font-family: sans-serif, #665138;
+    font-size: 15px;
+}
+
+//Distancia entre el logo y los botones de las secciones
+.Logo {
+    padding: 10px 30px 0px 30px;
+    z-index: 100;
+}
+
+.Logo:hover {
+    transform: scale(2, 2);
+}
+
+//Diseño de los botones de las Secciones en línea
+.boton:hover {
+    transition: height 4s;
+    background-color: yellow;
+    // #f5af19 
+}
+
+.navbar-nav .emmaMenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.emmaLink {
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px rgba (100, 100, 100, 0.5);
+}
+
+// Make the image fully responsive
+.carousel-inner img {
+    width: 65%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.container-fluid {
+    font-family: 'Roboto', cursive;
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.h4 {
+    font-size: 10px;
+}
+
+// SECCION HISTORIA
+.titulosH2 {
+    color: $colorFont;
+}
+
+.p {
+    display: flex;
+    color: orange;
+    background-color: lightgrey;
+    background-origin: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.HistoriaMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: $color;
+    line-height: 150px;
+    padding: 10px 50px 10px 50px;
+    border-style: solid orange;
+}
+
+// SECCION PRODUCTOS
+.ListaDelMenu ul li a {
+    text-decoration-line: none;
+}
+
+.Diseño {
+    border-color: orange;
+    border-style: solid;
+    border-top-width: 10px;
+}
+
+//SECCION GALERIA
+.GridContGaleria {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+
+/*
+.GridContGaleria > div > img {
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  /*flex-grow: 1; 
+  flex-basis: 150px; */
+
+
+/*
+.normal{
+  grid-column: span 1;
+}
+
+ flex-grow: 1,5; 
+ flex-basis: 200px; 
+} 
+
+.grande {
+  grid-row: span 2;
+} */
+
+//GALERIA
+.GaleriaH2 {
+    color: #665138;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    em {
+        display: flex;
+    }
+}
+
+//PARA QUE SE REPITA LA FRASE ESPACIADA..... AUN TRABAJANDOLO, YA ESTA EN EL HTML
+//PEDIDOS
+.PedGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo1,
+.titulo2,
+.titulo3,
+.titulo4 {
+    border-bottom: solid 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

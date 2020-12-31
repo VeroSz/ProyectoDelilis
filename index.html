@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de la página-->
+    <title>Index comida casera Delilis</title>
+
+    <meta name="description" content="delilis es un emprendimiento unipersonal de comida casera especial de medio oriente, desayunos y brunches a domicilio.,">
+    <meta name="keywords" content="comida, regalos, sadwiches, ensaldas, catering, empanadas, servicio ">
+
+    <!--Aplicacion Estilos CSS-->
+    <title>CSS en hojas de estilo externas</title>
+    <link rel="stylesheet" href="/css/prueba.css">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--Fuente en uso-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- QUE PARTE TIENE QUE QUEDAR EN EL HTML para pasarlo al CSS? quedaria Slyle con la clase y el resto al css?-->
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner img {
+            width: 90%;
+            height: 80%;
+            margin: 0px 20px;
+        }
+    </style>
+
+</head>
+
+<body class=FondoDePantalla>
+    <!--todo lo que quiero que vea el usuario-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:white;">
+        <a class="navbar-brand" href="Logo"></a>
+        <img class="Logo" src="Logos/Logo DelilisT.png" alt="Logo de la empresa" height="150">
+        <!--Logo-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav emmaMenu">
+                <a class="nav-item nav-link active emmaLink" href="Index.html">Index <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link emmaLink" href="Historia.html">Historia</a>
+                <a class="nav-item nav-link emmaLink" href="Galeria.html">Galeria</a>
+                <a class="nav-item nav-link emmaLink" href="Productos.html">Productos</a>
+                <a class="nav-item nav-link emmaLink" href="Pedidos.html">Pedidos</a>
+                <a class="nav-item nav-link emmaLink" href="Contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <!--CENTRAR!!!-->
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Img/Foto Delilis.jpg" class="d-block w-30" alt="Delilis">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/Mesa dulces.jpeg" class="d-block w-30" alt="Mesa Dulces">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/sandw varios.jpg" class="d-block w-30" alt="Sand. Varios">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"> Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--pie de página-->
+    <footer class="container-fluid font-weight-light">
+        <div class="d-inline-flex justify-content-around align-self-center" style="height: 100px; width: 100%; padding: 20px 40px 0px 40px; background-color: white; background-image: linear-gradient(white, #D9D2C6);">
+            <h4 class="font-size: 400px; "> Seguinos en: </h4>
+            <img src=" Icon/E-mail.jpeg " alt="Logo de E-mail " height="25 ">
+            <!--Logo E-mail-->
+            <h4 class="h4">delilis@gmail.com /</h4>
+            <img src="Icon/Whatsapp.jpeg " alt="Logo de Whatsapp " height="30 ">
+            <!--Logo Whatsapp-->
+            <img src="Icon/Telefono.png " alt="Logo de Telefono " height="30 ">
+            <!--Logo Telefono-->
+            <h4 class="h4">11-4140-1516 /</h4>
+            <a href="https://www.facebook.com/Delilis-551695288224119 ">
+                <img src="Icon/Facebook.jpeg " alt="Logo de Facebook " height="30 "></a>
+            <!--Logo Facebook-->
+            <a href="https://www.instagram.com/delilis_/ ">
+                <img src="Icon/Instagram.jpeg " alt="Logo de Instagram " height="30 "></a>
+            <!--Logo Instagram-->
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+</body>
+
+</html>
